@@ -1,0 +1,13 @@
+lcm<-function(x,y){
+  g=max(c(x,y))
+  a=0
+  while(a==0){
+    if((g%%x==0)&&(g%%y==0)){
+      l=g
+      break
+    }
+    g=g+1
+  }
+  return(l)
+}
+lcm(10,20)
