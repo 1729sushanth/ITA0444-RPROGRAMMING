@@ -1,0 +1,5 @@
+df <- data.frame(x = 170)
+res <-  predict(model, df)
+cat("\nPredicted value of a person
+               with height = 170")
+print(res)
