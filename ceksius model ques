@@ -1,0 +1,5 @@
+kc <- function(x){
+  c <- x-273.15
+  print(c)
+}
+kc(300)
